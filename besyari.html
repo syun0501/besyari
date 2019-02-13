@@ -9,6 +9,28 @@
 </head>
 <body>
  <h1>じぶんをさらけだせる場所</h1>  
+ <div class="tab_wrap">
+	<input id="tab1" type="radio" name="tab_btn" checked>
+	<input id="tab2" type="radio" name="tab_btn">
+	<input id="tab3" type="radio" name="tab_btn">
+ 
+	<div class="tab_area">
+		<label class="tab1_label" for="tab1">フォロー</label>
+		<label class="tab2_label" for="tab2">新着</label>
+		<label class="tab3_label" for="tab3">アクティブ</label>
+	</div>
+	<div class="panel_area">
+		<div id="panel1" class="tab_panel">
+			<p>データベースからの一覧</p>
+		</div>
+		<div id="panel2" class="tab_panel">
+			<p>データベースからの一覧</p>
+		</div>
+		<div id="panel3" class="tab_panel">
+			<p>データベースからの一覧</p>
+		</div>
+	</div>
+</div>
  <script src="besyari.js" type="text/javascript"></script>
 </body>
 </html>
